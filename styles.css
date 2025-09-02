@@ -69,8 +69,8 @@ body::before {
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 .brand { font-weight: 800; letter-spacing: 0.2px; display: inline-flex; align-items: center; gap: 10px; }
-.brand .logo { width: 24px; height: 24px; object-fit: contain; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.5)); }
-@media (min-width: 960px) { .brand .logo { width: 28px; height: 28px; } }
+.brand .logo { width: clamp(140px, 28vw, 240px); height: auto; object-fit: contain; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.5)); }
+@media (min-width: 960px) { .brand .logo { width: clamp(160px, 18vw, 280px); } }
 
 /* Prominent page and section titles (excl. homepage hero) */
 .page-title { font-size: clamp(30px, 5.5vw, 52px); font-weight: 900; line-height: 1.06; letter-spacing: 0.2px; margin: 0 0 12px; text-shadow: 0 6px 24px rgba(0,0,0,0.45); }

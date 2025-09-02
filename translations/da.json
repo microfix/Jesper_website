@@ -1,13 +1,13 @@
 {
   "company": {
-    "name": "Optiva"
+    "name": "OPTIVA"
   },
   "meta": {
-    "title_home": "Optiva — Forside",
-    "title_about": "Optiva — Om os",
-    "title_pricing": "Optiva — Priser",
-    "title_contact": "Optiva — Kontakt",
-    "title_services": "Optiva — Ydelser"
+    "title_home": "OPTIVA — Forside",
+    "title_about": "OPTIVA — Om os",
+    "title_pricing": "OPTIVA — Priser",
+    "title_contact": "OPTIVA — Kontakt",
+    "title_services": "OPTIVA — Ydelser"
   },
   "nav": {
     "home": "Forside",
@@ -30,7 +30,7 @@
     "hero_title": "Vores ydelser – Fra tilbud til aflevering",
     "hero_title_1": "Vores ydelser",
     "hero_title_2": "Fra tilbud til aflevering",
-    "hero_intro1": "Hos Optiva hjælper vi entreprenørfirmaer hele vejen igennem processen: fra de første mængdeudtræk og kalkulationer til styring af byggepladsen under udførelsen.",
+    "hero_intro1": "Hos OPTIVA hjælper vi entreprenørfirmaer hele vejen igennem processen: fra de første mængdeudtræk og kalkulationer til styring af byggepladsen under udførelsen.",
     "hero_intro2": "På den måde får I én partner, der kender projektet fra start til slut – og som sikrer overblik, økonomi og kvalitet.",
     "stats_years": "År i branchen",
     "stats_bids": "Tilbud leveret",
@@ -44,7 +44,7 @@
     "jesper_body2": "Han arbejder tæt med projektledere, kalkulatører og fagentrepriser for at skabe realistiske budgetter, klare grænseflader og konkurrencedygtige tilbud.",
     "jesper_body3": "Fokus er altid på gennemsigtighed, tempo og kvalitet — så beslutninger kan træffes hurtigt og sikkert.",
     "why_title": "Hvorfor vælge os",
-    "why_p1": "Med Optiva får I en fleksibel partner, der træder til, når presset er størst. Ingen faste lønomkostninger – kun præcision, fortrolighed og et mål om at styrke jeres hitrate.",
+    "why_p1": "Med OPTIVA får I en fleksibel partner, der træder til, når presset er størst. Ingen faste lønomkostninger – kun præcision, fortrolighed og et mål om at styrke jeres hitrate.",
     "why_p2": "Jeg vil meget gerne i dialog med entreprenørfirmaer, der kunne have brug for ekstra kræfter i tilbudsfasen – eller som blot er nysgerrige på, hvordan jeg kan hjælpe.",
     "why_p3": "Tak til alle, jeg tidligere har arbejdet sammen med – jeg glæder mig til at bygge videre på relationerne i denne nye rejse! 🚀"
   },
@@ -69,7 +69,7 @@
     "skill_4": "Tidsplaner og ressourcer",
     "skill_5": "Dialog med bygherre og samarbejdspartnere",
     "new_start_title": "✨ Ny start – samme stærke erfaring ✨",
-    "new_start_p1": "Efter mange gode år som tilbudschef i entreprenørbranchen har jeg valgt at starte mit eget firma: Optiva.",
+    "new_start_p1": "Efter mange gode år som tilbudschef i entreprenørbranchen har jeg valgt at starte mit eget firma: OPTIVA.",
     "new_start_p2": "Mit mål er klart: at hjælpe entreprenørfirmaer med at vinde flere sager.",
     "new_start_b1": "Mængdeudtræk og kalkulation",
     "new_start_b2": "Tilbudsudarbejdelse klar til aflevering",
@@ -77,7 +77,7 @@
     "new_start_b4": "Strategisk sparring og risikovurdering",
     "new_start_p3": "Hvorfor? Fordi jeg har set, hvor ofte dygtige entreprenører mister projekter – ikke på grund af udførelsen, men fordi ressourcerne i tilbudsfasen ikke slår til.",
     "personal_title": "Om os – mere personligt",
-    "personal_p1": "Optiva er stiftet af Jesper Johnsen, tidligere tilbudschef i entreprenørbranchen med mange års erfaring inden for udbud, kalkulation og tilbudsudarbejdelse.",
+    "personal_p1": "OPTIVA er stiftet af Jesper Johnsen, tidligere tilbudschef i entreprenørbranchen med mange års erfaring inden for udbud, kalkulation og tilbudsudarbejdelse.",
     "personal_p2": "Vi kender hverdagen i entreprenørfirmaer: når tilbudsfristerne presser, og der mangler ressourcer i afdelingen. Derfor tilbyder vi en fleksibel løsning, hvor I kan trække på vores erfaring, præcision og branchekendskab – uden at ansætte fast personale."
   },
   "pricing": {
