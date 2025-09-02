@@ -1,15 +1,17 @@
 {
   "company": {
-    "name": "Placeholder"
+    "name": "Optiva"
   },
   "meta": {
-    "title_home": "Placeholder — Bid Manager",
-    "title_about": "Placeholder — About",
-    "title_pricing": "Placeholder — Pricing",
-    "title_contact": "Placeholder — Contact"
+    "title_home": "Optiva — Home",
+    "title_about": "Optiva — About",
+    "title_pricing": "Optiva — Pricing",
+    "title_contact": "Optiva — Contact",
+    "title_services": "Optiva — Services"
   },
   "nav": {
     "home": "Home",
+    "services": "Services",
     "about": "About",
     "pricing": "Pricing",
     "contact": "Contact",
@@ -19,12 +21,17 @@
   "cta": {
     "view_pricing": "View pricing",
     "contact": "Contact",
+    "book_call": "Book an intro call",
+    "view_services": "View services",
     "get_started": "Get started",
     "talk": "Let’s talk"
   },
   "home": {
-    "hero_title": "Bids that win construction work",
-    "hero_subtitle": "Jesper helps contractors with sharp, fast and precise bids.",
+    "hero_title": "Our services — From bid to handover",
+    "hero_title_1": "Our services",
+    "hero_title_2": "From bid to handover",
+    "hero_intro1": "At Optiva we support contractors end to end: from the first quantity takeoffs and estimates to site management during execution.",
+    "hero_intro2": "This gives you one partner who knows the project from start to finish — ensuring clarity, cost control and quality.",
     "stats_years": "Years in industry",
     "stats_bids": "Bids delivered",
     "stats_rating": "Customer rating",
@@ -35,11 +42,15 @@
     "jesper_title": "Meet Jesper",
     "jesper_body": "Jesper is a bid manager with 10+ years in construction. He helps contractors and trade companies with precise estimating, clear assumptions, and bids that win — without compromising on speed or quality.",
     "jesper_body2": "He collaborates closely with project managers, estimators and trades to produce realistic budgets, clear interfaces and competitive bids.",
-    "jesper_body3": "The focus is transparency, speed and quality — enabling quick, confident decisions."
+    "jesper_body3": "The focus is transparency, speed and quality — enabling quick, confident decisions.",
+    "why_title": "Why choose us",
+    "why_p1": "Optiva is a flexible partner that steps in when pressure peaks. No fixed payroll — just precision, confidentiality and a goal to lift your hit rate.",
+    "why_p2": "I’d love to talk to contractors who could use extra capacity in the bidding phase — or are simply curious how I can help.",
+    "why_p3": "Thanks to everyone I’ve worked with before — I’m excited to build on those relationships in this new journey! 🚀"
   },
   "about": {
-    "title": "About Jesper",
-    "intro": "I help contractors and trade companies win more work with strong bids.",
+    "title": "Learn about us",
+    "intro": "",
     "experience_title": "Experience",
     "experience_text": "10+ years across estimation, tenders, and negotiations in construction.",
     "approach_title": "Approach",
@@ -53,11 +64,23 @@
     "skill_2": "Tender documentation and pricing",
     "skill_3": "Risk assessment and reservations",
     "skill_4": "Scheduling and resourcing",
-    "skill_5": "Client and partner communication"
+    "skill_5": "Client and partner communication",
+    "new_start_title": "✨ New start — same strong experience ✨",
+    "new_start_p1": "After many great years as a bid manager in construction, I’ve started my own company: Optiva.",
+    "new_start_p2": "My goal is clear: help contractors win more work.",
+    "new_start_b1": "Quantity takeoff and estimating",
+    "new_start_b2": "Bid preparation ready for submission",
+    "new_start_b3": "Compiling subcontractor quotations",
+    "new_start_b4": "Strategic sparring and risk assessment",
+    "new_start_p3": "Why? Because too often excellent contractors miss projects — not due to execution, but because bidding resources are stretched.",
+    "personal_title": "About us — more personal",
+    "personal_p1": "Optiva is founded by Jesper Johnsen, former bid manager with many years’ experience in tenders, estimating and bid preparation.",
+    "personal_p2": "We know the reality in contracting: deadlines press and resources are tight. We offer a flexible solution so you can tap our experience, precision and industry know‑how — without hiring full‑time staff."
   },
   "pricing": {
-    "title": "Pricing",
+    "title": "Pricing & proposals",
     "subtitle": "Pick the plan that fits your project.",
+    "notice": "All work is priced based on project size and complexity. Contact us for a proposal.",
     "popular": "Most popular",
     "basic_title": "Starter",
     "basic_price": "DKK 4,900",
@@ -79,12 +102,24 @@
     "enterprise_f3": "Priority support"
   },
   "contact": {
-    "title": "Contact",
+    "title": "Let’s talk",
     "subtitle": "Tell me briefly about your project — I’ll respond quickly.",
     "info_title": "Contact info",
     "name_label": "Bid Manager:",
     "email_label": "Email:",
-    "phone_label": "Phone:"
+    "phone_label": "Phone:",
+    "address_label": "Address:",
+    "cta_text": "Book a no‑obligation meeting — and let’s see how we can help on your next bid."
+  },
+  "services": {
+    "title": "What we offer",
+    "calc_title": "Bid estimating & takeoff",
+    "calc_b1": "Quantity takeoff from 2D/3D drawings",
+    "calc_b2": "Estimating and pricing",
+    "calc_b3": "Collecting and compiling subcontractor quotes",
+    "calc_b4": "Preparing the final bid document",
+    "calc_b5": "Sparring on tender terms, risks and optimisation",
+    "calc_benefit": "Save time, get precise numbers and improve your odds of winning the next job."
   },
   "form": {
     "name": "Name",

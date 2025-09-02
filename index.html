@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title data-i18n="meta.title_home">Placeholder — Tilbudschef</title>
+    <title data-i18n="meta.title_home">Optiva — Forside</title>
     <meta name="description" content="Tilbudschef Jesper – moderne, effektiv tilbudsgivning i byggebranchen" />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -14,7 +14,7 @@
         <span class="burger-bar"></span>
         <span class="sr-only" data-i18n="nav.open_menu">Åbn menu</span>
       </button>
-      <a href="index.html" class="brand" data-i18n="company.name">Placeholder</a>
+      <a href="index.html" class="brand"><img class="logo img-hide-on-error" src="logo.png" alt="" aria-hidden="true"><span data-i18n="company.name">Optiva</span></a>
       <div class="lang-switch">
         <button class="lang" data-lang="da" aria-pressed="true" title="Dansk">🇩🇰</button>
         <button class="lang" data-lang="en" aria-pressed="false" title="English">🇬🇧</button>
@@ -23,9 +23,10 @@
 
     <!-- Desktop sidebar -->
     <aside class="sidebar" aria-label="Sidnavigation">
-      <a href="index.html" class="brand" data-i18n="company.name">Placeholder</a>
+      <a href="index.html" class="brand"><img class="logo img-hide-on-error" src="logo.png" alt="" aria-hidden="true"><span data-i18n="company.name">Optiva</span></a>
       <nav class="nav">
         <a href="index.html" data-i18n="nav.home">Forside</a>
+        <a href="services.html" data-i18n="nav.services">Ydelser</a>
         <a href="about.html" data-i18n="nav.about">Om</a>
         <a href="pricing.html" data-i18n="nav.pricing">Priser</a>
         <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
@@ -42,7 +43,7 @@
     <div class="overlay" id="overlay" hidden></div>
     <div id="mobile-drawer" class="drawer" role="dialog" aria-modal="true" aria-label="Navigation" aria-hidden="true">
       <div class="drawer-header">
-        <span class="brand" data-i18n="company.name">Placeholder</span>
+        <span class="brand"><img class="logo img-hide-on-error" src="logo.png" alt="" aria-hidden="true"><span data-i18n="company.name">Optiva</span></span>
         <button class="drawer-close" id="drawer-close" aria-label="Luk menu">
           <span aria-hidden="true">×</span>
           <span class="sr-only" data-i18n="nav.close_menu">Luk menu</span>
@@ -50,6 +51,7 @@
       </div>
       <nav class="nav">
         <a href="index.html" data-i18n="nav.home">Forside</a>
+        <a href="services.html" data-i18n="nav.services">Ydelser</a>
         <a href="about.html" data-i18n="nav.about">Om</a>
         <a href="pricing.html" data-i18n="nav.pricing">Priser</a>
         <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
@@ -64,11 +66,12 @@
           <div class="blob b2"></div>
         </div>
         <div class="hero-inner">
-          <h1 class="reveal" data-i18n="home.hero_title">Tilbud der vinder byggeopgaver</h1>
-          <p class="muted reveal" data-i18n="home.hero_subtitle">Jesper hjælper entreprenører med skarpe tilbud – hurtigt og præcist.</p>
+          <h1 class="reveal hero-title"><span data-i18n="home.hero_title_1">Vores ydelser</span><br><span data-i18n="home.hero_title_2">Fra tilbud til aflevering</span></h1>
+          <p class="muted reveal" data-i18n="home.hero_intro1">Hos Optiva hjælper vi entreprenørfirmaer hele vejen igennem processen: fra de første mængdeudtræk og kalkulationer til styring af byggepladsen under udførelsen.</p>
+          <p class="muted reveal" data-i18n="home.hero_intro2">På den måde får I én partner, der kender projektet fra start til slut – og som sikrer overblik, økonomi og kvalitet.</p>
           <div class="cta reveal">
-            <a class="btn primary" href="pricing.html" data-i18n="cta.view_pricing">Se priser</a>
-            <a class="btn ghost" href="contact.html" data-i18n="cta.contact">Kontakt</a>
+            <a class="btn primary" href="contact.html" data-i18n="cta.book_call">Book en uforpligtende snak</a>
+            <a class="btn ghost" href="services.html" data-i18n="cta.view_services">Se ydelser</a>
           </div>
           <div class="stats reveal">
             <div class="stat glass">
@@ -114,6 +117,17 @@
                 <p class="muted" data-i18n="home.jesper_body3">Fokus er altid på gennemsigtighed, tempo og kvalitet — så beslutninger kan træffes hurtigt og sikkert.</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-inner">
+          <div class="card glass prose">
+            <h3 data-i18n="home.why_title">Hvorfor vælge os</h3>
+            <p class="muted" data-i18n="home.why_p1">Med Optiva får I en fleksibel partner, der træder til, når presset er størst. Ingen faste lønomkostninger – kun præcision, fortrolighed og et mål om at styrke jeres hitrate.</p>
+            <p class="muted" data-i18n="home.why_p2">Jeg vil meget gerne i dialog med entreprenørfirmaer, der kunne have brug for ekstra kræfter i tilbudsfasen – eller som blot er nysgerrige på, hvordan jeg kan hjælpe.</p>
+            <p class="muted" data-i18n="home.why_p3">Tak til alle, jeg tidligere har arbejdet sammen med – jeg glæder mig til at bygge videre på relationerne i denne nye rejse! 🚀</p>
           </div>
         </div>
       </section>

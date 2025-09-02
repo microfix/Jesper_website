@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title data-i18n="meta.title_about">Placeholder — Om</title>
+    <title data-i18n="meta.title_about">Optiva — Om os</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body data-page="about">
@@ -12,7 +12,7 @@
         <span class="burger-bar"></span>
         <span class="sr-only" data-i18n="nav.open_menu">Åbn menu</span>
       </button>
-      <a href="index.html" class="brand" data-i18n="company.name">Placeholder</a>
+      <a href="index.html" class="brand"><img class="logo img-hide-on-error" src="logo.png" alt="" aria-hidden="true"><span data-i18n="company.name">Optiva</span></a>
       <div class="lang-switch">
         <button class="lang" data-lang="da" aria-pressed="true" title="Dansk">🇩🇰</button>
         <button class="lang" data-lang="en" aria-pressed="false" title="English">🇬🇧</button>
@@ -20,9 +20,10 @@
     </header>
 
     <aside class="sidebar" aria-label="Sidnavigation">
-      <a href="index.html" class="brand" data-i18n="company.name">Placeholder</a>
+      <a href="index.html" class="brand"><img class="logo img-hide-on-error" src="logo.png" alt="" aria-hidden="true"><span data-i18n="company.name">Optiva</span></a>
       <nav class="nav">
         <a href="index.html" data-i18n="nav.home">Forside</a>
+        <a href="services.html" data-i18n="nav.services">Ydelser</a>
         <a href="about.html" data-i18n="nav.about">Om</a>
         <a href="pricing.html" data-i18n="nav.pricing">Priser</a>
         <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
@@ -38,7 +39,7 @@
     <div class="overlay" id="overlay" hidden></div>
     <div id="mobile-drawer" class="drawer" role="dialog" aria-modal="true" aria-label="Navigation" aria-hidden="true">
       <div class="drawer-header">
-        <span class="brand" data-i18n="company.name">Placeholder</span>
+        <span class="brand"><img class="logo img-hide-on-error" src="logo.png" alt="" aria-hidden="true"><span data-i18n="company.name">Optiva</span></span>
         <button class="drawer-close" id="drawer-close" aria-label="Luk menu">
           <span aria-hidden="true">×</span>
           <span class="sr-only" data-i18n="nav.close_menu">Luk menu</span>
@@ -46,6 +47,7 @@
       </div>
       <nav class="nav">
         <a href="index.html" data-i18n="nav.home">Forside</a>
+        <a href="services.html" data-i18n="nav.services">Ydelser</a>
         <a href="about.html" data-i18n="nav.about">Om</a>
         <a href="pricing.html" data-i18n="nav.pricing">Priser</a>
         <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
@@ -56,8 +58,25 @@
       <section class="section">
         <div class="section-inner">
           <img class="avatar-lg img-hide-on-error" src="https://media.licdn.com/dms/image/v2/D4D03AQG29MStgnqv_w/profile-displayphoto-shrink_800_800/B4DZSxilcSGkAg-/0/1738145421875?e=1759968000&v=beta&t=l7YVwiyjknx6732KxqxfGY_rT6fOl3M1hMT7RbVhyxQ" alt="Jesper Johnsen" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-          <h1 class="reveal" data-i18n="about.title">Om Jesper</h1>
-          <p class="muted reveal" data-i18n="about.intro">Jeg hjælper entreprenører og håndværksvirksomheder med at vinde flere opgaver gennem stærke tilbud.</p>
+          <h1 class="page-title reveal" data-i18n="about.title">Læs om os</h1>
+          <div class="card glass reveal prose">
+            <h3 data-i18n="about.new_start_title">✨ Ny start – samme stærke erfaring ✨</h3>
+            <p class="muted" data-i18n="about.new_start_p1">Efter mange gode år som tilbudschef i entreprenørbranchen har jeg valgt at starte mit eget firma: Optiva.</p>
+            <p class="muted" data-i18n="about.new_start_p2">Mit mål er klart: at hjælpe entreprenørfirmaer med at vinde flere sager.</p>
+            <ul class="list">
+              <li data-i18n="about.new_start_b1">Mængdeudtræk og kalkulation</li>
+              <li data-i18n="about.new_start_b2">Tilbudsudarbejdelse klar til aflevering</li>
+              <li data-i18n="about.new_start_b3">Sammenstilling af underentreprenørtilbud</li>
+              <li data-i18n="about.new_start_b4">Strategisk sparring og risikovurdering</li>
+            </ul>
+            <p class="muted" data-i18n="about.new_start_p3">Hvorfor? Fordi jeg har set, hvor ofte dygtige entreprenører mister projekter – ikke på grund af udførelsen, men fordi ressourcerne i tilbudsfasen ikke slår til.</p>
+          </div>
+
+          <div class="card glass reveal prose">
+            <h3 data-i18n="about.personal_title">Om os – mere personligt</h3>
+            <p class="muted" data-i18n="about.personal_p1">Optiva er stiftet af Jesper Johnsen, tidligere tilbudschef i entreprenørbranchen med mange års erfaring inden for udbud, kalkulation og tilbudsudarbejdelse.</p>
+            <p class="muted" data-i18n="about.personal_p2">Vi kender hverdagen i entreprenørfirmaer: når tilbudsfristerne presser, og der mangler ressourcer i afdelingen. Derfor tilbyder vi en fleksibel løsning, hvor I kan trække på vores erfaring, præcision og branchekendskab – uden at ansætte fast personale.</p>
+          </div>
 
           <div class="grid two">
             <div class="card glass reveal">

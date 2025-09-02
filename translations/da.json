@@ -1,15 +1,17 @@
 {
   "company": {
-    "name": "Placeholder"
+    "name": "Optiva"
   },
   "meta": {
-    "title_home": "Placeholder — Tilbudschef",
-    "title_about": "Placeholder — Om",
-    "title_pricing": "Placeholder — Priser",
-    "title_contact": "Placeholder — Kontakt"
+    "title_home": "Optiva — Forside",
+    "title_about": "Optiva — Om os",
+    "title_pricing": "Optiva — Priser",
+    "title_contact": "Optiva — Kontakt",
+    "title_services": "Optiva — Ydelser"
   },
   "nav": {
     "home": "Forside",
+    "services": "Ydelser",
     "about": "Om",
     "pricing": "Priser",
     "contact": "Kontakt",
@@ -19,12 +21,17 @@
   "cta": {
     "view_pricing": "Se priser",
     "contact": "Kontakt",
+    "book_call": "Book en uforpligtende snak",
+    "view_services": "Se ydelser",
     "get_started": "Kom i gang",
     "talk": "Lad os tale"
   },
   "home": {
-    "hero_title": "Tilbud der vinder byggeopgaver",
-    "hero_subtitle": "Jesper hjælper entreprenører med skarpe tilbud – hurtigt og præcist.",
+    "hero_title": "Vores ydelser – Fra tilbud til aflevering",
+    "hero_title_1": "Vores ydelser",
+    "hero_title_2": "Fra tilbud til aflevering",
+    "hero_intro1": "Hos Optiva hjælper vi entreprenørfirmaer hele vejen igennem processen: fra de første mængdeudtræk og kalkulationer til styring af byggepladsen under udførelsen.",
+    "hero_intro2": "På den måde får I én partner, der kender projektet fra start til slut – og som sikrer overblik, økonomi og kvalitet.",
     "stats_years": "År i branchen",
     "stats_bids": "Tilbud leveret",
     "stats_rating": "Kundetilfredshed",
@@ -35,11 +42,15 @@
     "jesper_title": "Mød Jesper",
     "jesper_body": "Jesper er tilbudschef med mere end 10 års erfaring i byggebranchen. Han hjælper entreprenører og håndværksvirksomheder med præcise kalkulationer, tydelige forudsætninger og tilbud der vinder — uden at gå på kompromis med kvalitet eller tempo.",
     "jesper_body2": "Han arbejder tæt med projektledere, kalkulatører og fagentrepriser for at skabe realistiske budgetter, klare grænseflader og konkurrencedygtige tilbud.",
-    "jesper_body3": "Fokus er altid på gennemsigtighed, tempo og kvalitet — så beslutninger kan træffes hurtigt og sikkert."
+    "jesper_body3": "Fokus er altid på gennemsigtighed, tempo og kvalitet — så beslutninger kan træffes hurtigt og sikkert.",
+    "why_title": "Hvorfor vælge os",
+    "why_p1": "Med Optiva får I en fleksibel partner, der træder til, når presset er størst. Ingen faste lønomkostninger – kun præcision, fortrolighed og et mål om at styrke jeres hitrate.",
+    "why_p2": "Jeg vil meget gerne i dialog med entreprenørfirmaer, der kunne have brug for ekstra kræfter i tilbudsfasen – eller som blot er nysgerrige på, hvordan jeg kan hjælpe.",
+    "why_p3": "Tak til alle, jeg tidligere har arbejdet sammen med – jeg glæder mig til at bygge videre på relationerne i denne nye rejse! 🚀"
   },
   "about": {
-    "title": "Om Jesper",
-    "intro": "Jeg hjælper entreprenører og håndværksvirksomheder med at vinde flere opgaver gennem stærke tilbud.",
+    "title": "Læs om os",
+    "intro": "",
     "experience_title": "Erfaring",
     "experience_text": "10+ år med kalkulation, udbud og forhandling i byggebranchen.",
     "approach_title": "Tilgang",
@@ -53,11 +64,23 @@
     "skill_2": "Udbudsmateriale og prissætning",
     "skill_3": "Risikovurdering og forbehold",
     "skill_4": "Tidsplaner og ressourcer",
-    "skill_5": "Dialog med bygherre og samarbejdspartnere"
+    "skill_5": "Dialog med bygherre og samarbejdspartnere",
+    "new_start_title": "✨ Ny start – samme stærke erfaring ✨",
+    "new_start_p1": "Efter mange gode år som tilbudschef i entreprenørbranchen har jeg valgt at starte mit eget firma: Optiva.",
+    "new_start_p2": "Mit mål er klart: at hjælpe entreprenørfirmaer med at vinde flere sager.",
+    "new_start_b1": "Mængdeudtræk og kalkulation",
+    "new_start_b2": "Tilbudsudarbejdelse klar til aflevering",
+    "new_start_b3": "Sammenstilling af underentreprenørtilbud",
+    "new_start_b4": "Strategisk sparring og risikovurdering",
+    "new_start_p3": "Hvorfor? Fordi jeg har set, hvor ofte dygtige entreprenører mister projekter – ikke på grund af udførelsen, men fordi ressourcerne i tilbudsfasen ikke slår til.",
+    "personal_title": "Om os – mere personligt",
+    "personal_p1": "Optiva er stiftet af Jesper Johnsen, tidligere tilbudschef i entreprenørbranchen med mange års erfaring inden for udbud, kalkulation og tilbudsudarbejdelse.",
+    "personal_p2": "Vi kender hverdagen i entreprenørfirmaer: når tilbudsfristerne presser, og der mangler ressourcer i afdelingen. Derfor tilbyder vi en fleksibel løsning, hvor I kan trække på vores erfaring, præcision og branchekendskab – uden at ansætte fast personale."
   },
   "pricing": {
-    "title": "Priser",
+    "title": "Priser og oplæg",
     "subtitle": "Vælg den løsning der passer til dit projekt.",
+    "notice": "Alle opgaver prissættes efter projektets størrelse og kompleksitet. Kontakt os for et oplæg.",
     "popular": "Mest valgt",
     "basic_title": "Start",
     "basic_price": "DKK 4.900",
@@ -79,12 +102,24 @@
     "enterprise_f3": "Prioriteret support"
   },
   "contact": {
-    "title": "Kontakt",
+    "title": "Lad os tale",
     "subtitle": "Fortæl kort om din opgave – jeg svarer hurtigt.",
     "info_title": "Kontaktinfo",
     "name_label": "Tilbudschef:",
     "email_label": "Email:",
-    "phone_label": "Telefon:"
+    "phone_label": "Telefon:",
+    "address_label": "Adresse:",
+    "cta_text": "Book et uforpligtende møde – og lad os se, hvordan vi kan hjælpe jer med næste tilbud."
+  },
+  "services": {
+    "title": "Det vi tilbyder",
+    "calc_title": "Tilbudsberegning & kalkulation",
+    "calc_b1": "Mængdeudtræk fra 2D/3D tegninger",
+    "calc_b2": "Kalkulation og prisfastsættelse",
+    "calc_b3": "Indhentning og sammenstilling af underentreprenørtilbud",
+    "calc_b4": "Udarbejdelse af det færdige tilbudsdokument",
+    "calc_b5": "Sparring om udbudsbetingelser, risici og optimering",
+    "calc_benefit": "I sparer tid, får præcise beregninger og øger jeres chance for at vinde næste sag."
   },
   "form": {
     "name": "Navn",

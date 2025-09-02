@@ -40,6 +40,7 @@ function applyTranslations() {
   const page = document.body.dataset.page;
   const titleKey = {
     home: 'meta.title_home',
+    services: 'meta.title_services',
     about: 'meta.title_about',
     pricing: 'meta.title_pricing',
     contact: 'meta.title_contact',
@@ -61,6 +62,7 @@ function setupNavigation() {
     const page = document.body.dataset.page;
     const match = {
       home: 'index.html',
+      services: 'services.html',
       about: 'about.html',
       pricing: 'pricing.html',
       contact: 'contact.html',

@@ -31,6 +31,7 @@ body {
   color: var(--text);
   background: var(--bg);
   line-height: 1.5;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -67,7 +68,14 @@ body::before {
   backdrop-filter: saturate(150%) blur(8px);
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
-.brand { font-weight: 800; letter-spacing: 0.2px; }
+.brand { font-weight: 800; letter-spacing: 0.2px; display: inline-flex; align-items: center; gap: 10px; }
+.brand .logo { width: 24px; height: 24px; object-fit: contain; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.5)); }
+@media (min-width: 960px) { .brand .logo { width: 28px; height: 28px; } }
+
+/* Prominent page and section titles (excl. homepage hero) */
+.page-title { font-size: clamp(30px, 5.5vw, 52px); font-weight: 900; line-height: 1.06; letter-spacing: 0.2px; margin: 0 0 12px; text-shadow: 0 6px 24px rgba(0,0,0,0.45); }
+.page-title::after { content: ""; display: block; width: 90px; height: 3px; margin: 10px auto 0; background: linear-gradient(90deg, var(--accent-1), var(--accent-2), var(--accent-3)); border-radius: 999px; opacity: 0.9; }
+.section-title { font-size: clamp(22px, 3.6vw, 32px); font-weight: 800; line-height: 1.15; margin: 0 0 10px; }
 .lang-switch { display: flex; gap: 8px; }
 .lang[aria-pressed="true"] { filter: saturate(1.2); transform: scale(1.05); }
 
@@ -139,7 +147,7 @@ body::before {
 .hero .blob.b2 { background: radial-gradient(circle at 70% 70%, var(--accent-1), transparent 60%); bottom: -20%; right: -15%; animation-delay: -6s; }
 @keyframes float { to { transform: translate3d(20px, 30px, 0) scale(1.05); } }
 
-.hero-inner { max-width: 900px; margin: 0 auto; text-align: left; }
+.hero-inner { max-width: 900px; margin: 0 auto; text-align: center; }
 .hero h1 { font-size: clamp(28px, 6vw, 56px); line-height: 1.05; margin: 0 0 12px; }
 .hero .cta { display: flex; gap: var(--space); margin-top: 16px; flex-wrap: wrap; }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin-top: 24px; }

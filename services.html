@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title data-i18n="meta.title_contact">Optiva — Kontakt</title>
+    <title data-i18n="meta.title_services">Optiva — Ydelser</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body data-page="contact">
+  <body data-page="services">
     <header class="topbar" aria-label="Topbar">
       <button class="burger" id="burger" aria-label="Menu" aria-controls="mobile-drawer" aria-expanded="false">
         <span class="burger-bar"></span>
@@ -57,45 +57,18 @@
     <main class="content">
       <section class="section">
         <div class="section-inner">
-          <h1 class="page-title reveal" data-i18n="contact.title">Lad os tale</h1>
-          <p class="muted reveal" data-i18n="contact.subtitle">Fortæl kort om din opgave – jeg svarer hurtigt.</p>
-
-          <div class="grid two">
-            <div class="card glass reveal">
-              <img class="avatar avatar-center img-hide-on-error" src="https://media.licdn.com/dms/image/v2/D4D03AQG29MStgnqv_w/profile-displayphoto-shrink_800_800/B4DZSxilcSGkAg-/0/1738145421875?e=1759968000&v=beta&t=l7YVwiyjknx6732KxqxfGY_rT6fOl3M1hMT7RbVhyxQ" alt="Jesper Johnsen" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-              <h3 data-i18n="contact.info_title">Kontaktinfo</h3>
-              <ul class="list">
-                <li><strong data-i18n="contact.name_label">Tilbudschef:</strong> Jesper</li>
-                <li><strong data-i18n="contact.email_label">Email:</strong> <a href="mailto:jesper@example.com">jesper@example.com</a></li>
-                <li><strong data-i18n="contact.phone_label">Telefon:</strong> <a href="tel:+4512345678">+45 12 34 56 78</a></li>
-                <li><strong data-i18n="contact.address_label">Adresse:</strong> [indtast adresse/by]</li>
-              </ul>
-              <div class="prose" style="margin-top: var(--space)">
-                <p class="muted" data-i18n="contact.cta_text">Book et uforpligtende møde – og lad os se, hvordan vi kan hjælpe jer med næste tilbud.</p>
-              </div>
-            </div>
-
-            <form id="contact-form" class="card glass reveal" novalidate>
-              <div class="field">
-                <label for="name" data-i18n="form.name">Navn</label>
-                <input id="name" name="name" type="text" required />
-              </div>
-              <div class="field">
-                <label for="email" data-i18n="form.email">Email</label>
-                <input id="email" name="email" type="email" required />
-              </div>
-              <div class="field">
-                <label for="message" data-i18n="form.message">Besked</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-              </div>
-              <div class="field check">
-                <input id="consent" name="consent" type="checkbox" required />
-                <label for="consent" data-i18n="form.consent">Jeg giver samtykke til, at mine oplysninger må behandles mhp. kontakt.</label>
-              </div>
-              <button class="btn primary" type="submit" data-i18n="form.submit">Send</button>
-              <p id="form-success" class="success" role="status" aria-live="polite" hidden data-i18n="form.success">Tak! Din besked er sendt.</p>
-            </form>
-          </div>
+          <h1 class="page-title reveal" data-i18n="services.title">Det vi tilbyder</h1>
+          <article class="card glass reveal prose">
+            <h3 data-i18n="services.calc_title">Tilbudsberegning & kalkulation</h3>
+            <ul class="list">
+              <li data-i18n="services.calc_b1">Mængdeudtræk fra 2D/3D tegninger</li>
+              <li data-i18n="services.calc_b2">Kalkulation og prisfastsættelse</li>
+              <li data-i18n="services.calc_b3">Indhentning og sammenstilling af underentreprenørtilbud</li>
+              <li data-i18n="services.calc_b4">Udarbejdelse af det færdige tilbudsdokument</li>
+              <li data-i18n="services.calc_b5">Sparring om udbudsbetingelser, risici og optimering</li>
+            </ul>
+            <p class="muted" data-i18n="services.calc_benefit">I sparer tid, får præcise beregninger og øger jeres chance for at vinde næste sag.</p>
+          </article>
         </div>
       </section>
     </main>
