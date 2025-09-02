@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="meta.title_about">Placeholder — Om</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="about">
+    <header class="topbar" aria-label="Topbar">
+      <button class="burger" id="burger" aria-label="Menu" aria-controls="mobile-drawer" aria-expanded="false">
+        <span class="burger-bar"></span>
+        <span class="sr-only" data-i18n="nav.open_menu">Åbn menu</span>
+      </button>
+      <a href="index.html" class="brand" data-i18n="company.name">Placeholder</a>
+      <div class="lang-switch">
+        <button class="lang" data-lang="da" aria-pressed="true" title="Dansk">🇩🇰</button>
+        <button class="lang" data-lang="en" aria-pressed="false" title="English">🇬🇧</button>
+      </div>
+    </header>
+
+    <aside class="sidebar" aria-label="Sidnavigation">
+      <a href="index.html" class="brand" data-i18n="company.name">Placeholder</a>
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav.home">Forside</a>
+        <a href="about.html" data-i18n="nav.about">Om</a>
+        <a href="pricing.html" data-i18n="nav.pricing">Priser</a>
+        <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="lang-switch">
+          <button class="lang" data-lang="da" aria-pressed="true" title="Dansk">🇩🇰</button>
+          <button class="lang" data-lang="en" aria-pressed="false" title="English">🇬🇧</button>
+        </div>
+      </div>
+    </aside>
+
+    <div class="overlay" id="overlay" hidden></div>
+    <div id="mobile-drawer" class="drawer" role="dialog" aria-modal="true" aria-label="Navigation" aria-hidden="true">
+      <div class="drawer-header">
+        <span class="brand" data-i18n="company.name">Placeholder</span>
+        <button class="drawer-close" id="drawer-close" aria-label="Luk menu">
+          <span aria-hidden="true">×</span>
+          <span class="sr-only" data-i18n="nav.close_menu">Luk menu</span>
+        </button>
+      </div>
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav.home">Forside</a>
+        <a href="about.html" data-i18n="nav.about">Om</a>
+        <a href="pricing.html" data-i18n="nav.pricing">Priser</a>
+        <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+    </div>
+
+    <main class="content">
+      <section class="section">
+        <div class="section-inner">
+          <img class="avatar-lg img-hide-on-error" src="https://media.licdn.com/dms/image/v2/D4D03AQG29MStgnqv_w/profile-displayphoto-shrink_800_800/B4DZSxilcSGkAg-/0/1738145421875?e=1759968000&v=beta&t=l7YVwiyjknx6732KxqxfGY_rT6fOl3M1hMT7RbVhyxQ" alt="Jesper Johnsen" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+          <h1 class="reveal" data-i18n="about.title">Om Jesper</h1>
+          <p class="muted reveal" data-i18n="about.intro">Jeg hjælper entreprenører og håndværksvirksomheder med at vinde flere opgaver gennem stærke tilbud.</p>
+
+          <div class="grid two">
+            <div class="card glass reveal">
+              <h3 data-i18n="about.experience_title">Erfaring</h3>
+              <p class="muted" data-i18n="about.experience_text">10+ år med kalkulation, udbud og forhandling i byggebranchen.</p>
+            </div>
+            <div class="card glass reveal">
+              <h3 data-i18n="about.approach_title">Tilgang</h3>
+              <p class="muted" data-i18n="about.approach_text">Struktureret, transparent og effektiv – med fokus på værdi.</p>
+            </div>
+          </div>
+
+          <div class="card glass reveal prose">
+            <h3 data-i18n="about.background_title">Baggrund</h3>
+            <p class="muted" data-i18n="about.bio_p1">Jesper har arbejdet på tværs af entreprenører og fagentrepriser med tilbudsgivning, mængdeudtræk og prissætning på både renoverings- og nybygningsprojekter.</p>
+            <p class="muted" data-i18n="about.bio_p2">Han er vant til at strukturere udbudsmateriale, afklare forudsætninger og sikre gennemsigtighed i kalkulationen — så samarbejdspartnere og bygherre kan træffe beslutninger på et solidt grundlag.</p>
+            <p class="muted" data-i18n="about.bio_p3">Arbejdet er præget af tempo, kvalitet og tæt dialog, med en jordnær tilgang til risici, forbehold og grænseflader.</p>
+          </div>
+
+          <div class="grid two">
+            <div class="card glass reveal">
+              <h3 data-i18n="about.skills_title">Kompetencer</h3>
+              <ul class="list">
+                <li data-i18n="about.skill_1">Kalkulation og mængdeudtræk</li>
+                <li data-i18n="about.skill_2">Udbudsmateriale og prissætning</li>
+                <li data-i18n="about.skill_3">Risikovurdering og forbehold</li>
+                <li data-i18n="about.skill_4">Tidsplaner og ressourcer</li>
+                <li data-i18n="about.skill_5">Dialog med bygherre og samarbejdspartnere</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+  </html>

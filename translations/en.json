@@ -1,0 +1,97 @@
+{
+  "company": {
+    "name": "Placeholder"
+  },
+  "meta": {
+    "title_home": "Placeholder — Bid Manager",
+    "title_about": "Placeholder — About",
+    "title_pricing": "Placeholder — Pricing",
+    "title_contact": "Placeholder — Contact"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu"
+  },
+  "cta": {
+    "view_pricing": "View pricing",
+    "contact": "Contact",
+    "get_started": "Get started",
+    "talk": "Let’s talk"
+  },
+  "home": {
+    "hero_title": "Bids that win construction work",
+    "hero_subtitle": "Jesper helps contractors with sharp, fast and precise bids.",
+    "stats_years": "Years in industry",
+    "stats_bids": "Bids delivered",
+    "stats_rating": "Customer rating",
+    "card_speed_title": "Speed",
+    "card_speed_text": "Streamlined process and templates so you come first.",
+    "card_quality_title": "Quality",
+    "card_quality_text": "Sharper calculations and clear assumptions.",
+    "jesper_title": "Meet Jesper",
+    "jesper_body": "Jesper is a bid manager with 10+ years in construction. He helps contractors and trade companies with precise estimating, clear assumptions, and bids that win — without compromising on speed or quality.",
+    "jesper_body2": "He collaborates closely with project managers, estimators and trades to produce realistic budgets, clear interfaces and competitive bids.",
+    "jesper_body3": "The focus is transparency, speed and quality — enabling quick, confident decisions."
+  },
+  "about": {
+    "title": "About Jesper",
+    "intro": "I help contractors and trade companies win more work with strong bids.",
+    "experience_title": "Experience",
+    "experience_text": "10+ years across estimation, tenders, and negotiations in construction.",
+    "approach_title": "Approach",
+    "approach_text": "Structured, transparent, and efficient — focused on value.",
+    "background_title": "Background",
+    "bio_p1": "Jesper has worked across general contractors and trades on bidding, quantity takeoffs and pricing for both renovation and new build projects.",
+    "bio_p2": "He’s used to structuring tender material, clarifying assumptions and bringing transparency to estimates — giving partners and clients a solid basis for decisions.",
+    "bio_p3": "The work is characterized by pace, quality and close dialogue, with a pragmatic view on risks, reservations and scopes.",
+    "skills_title": "Skills",
+    "skill_1": "Estimating and quantity takeoff",
+    "skill_2": "Tender documentation and pricing",
+    "skill_3": "Risk assessment and reservations",
+    "skill_4": "Scheduling and resourcing",
+    "skill_5": "Client and partner communication"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Pick the plan that fits your project.",
+    "popular": "Most popular",
+    "basic_title": "Starter",
+    "basic_price": "DKK 4,900",
+    "basic_desc": "For smaller bids and simple scopes.",
+    "basic_f1": "1 bid",
+    "basic_f2": "Basic estimation",
+    "basic_f3": "Delivery 3–5 business days",
+    "pro_title": "Pro",
+    "pro_price": "DKK 9,900",
+    "pro_desc": "For medium tenders with clear scope.",
+    "pro_f1": "Up to 3 bids",
+    "pro_f2": "Extended estimation",
+    "pro_f3": "Delivery 2–4 business days",
+    "enterprise_title": "Enterprise",
+    "enterprise_price": "Contact",
+    "enterprise_desc": "For complex tenders and framework agreements.",
+    "enterprise_f1": "Unlimited bids",
+    "enterprise_f2": "Full scope and advisory",
+    "enterprise_f3": "Priority support"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Tell me briefly about your project — I’ll respond quickly.",
+    "info_title": "Contact info",
+    "name_label": "Bid Manager:",
+    "email_label": "Email:",
+    "phone_label": "Phone:"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "consent": "I consent to my data being processed for contact.",
+    "submit": "Send",
+    "success": "Thanks! Your message was sent."
+  }
+}

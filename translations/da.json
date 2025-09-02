@@ -1,0 +1,97 @@
+{
+  "company": {
+    "name": "Placeholder"
+  },
+  "meta": {
+    "title_home": "Placeholder — Tilbudschef",
+    "title_about": "Placeholder — Om",
+    "title_pricing": "Placeholder — Priser",
+    "title_contact": "Placeholder — Kontakt"
+  },
+  "nav": {
+    "home": "Forside",
+    "about": "Om",
+    "pricing": "Priser",
+    "contact": "Kontakt",
+    "open_menu": "Åbn menu",
+    "close_menu": "Luk menu"
+  },
+  "cta": {
+    "view_pricing": "Se priser",
+    "contact": "Kontakt",
+    "get_started": "Kom i gang",
+    "talk": "Lad os tale"
+  },
+  "home": {
+    "hero_title": "Tilbud der vinder byggeopgaver",
+    "hero_subtitle": "Jesper hjælper entreprenører med skarpe tilbud – hurtigt og præcist.",
+    "stats_years": "År i branchen",
+    "stats_bids": "Tilbud leveret",
+    "stats_rating": "Kundetilfredshed",
+    "card_speed_title": "Hastighed",
+    "card_speed_text": "Strømlinet proces og skabeloner, så du kommer først.",
+    "card_quality_title": "Kvalitet",
+    "card_quality_text": "Skærpede kalkulationer og klare forudsætninger.",
+    "jesper_title": "Mød Jesper",
+    "jesper_body": "Jesper er tilbudschef med mere end 10 års erfaring i byggebranchen. Han hjælper entreprenører og håndværksvirksomheder med præcise kalkulationer, tydelige forudsætninger og tilbud der vinder — uden at gå på kompromis med kvalitet eller tempo.",
+    "jesper_body2": "Han arbejder tæt med projektledere, kalkulatører og fagentrepriser for at skabe realistiske budgetter, klare grænseflader og konkurrencedygtige tilbud.",
+    "jesper_body3": "Fokus er altid på gennemsigtighed, tempo og kvalitet — så beslutninger kan træffes hurtigt og sikkert."
+  },
+  "about": {
+    "title": "Om Jesper",
+    "intro": "Jeg hjælper entreprenører og håndværksvirksomheder med at vinde flere opgaver gennem stærke tilbud.",
+    "experience_title": "Erfaring",
+    "experience_text": "10+ år med kalkulation, udbud og forhandling i byggebranchen.",
+    "approach_title": "Tilgang",
+    "approach_text": "Struktureret, transparent og effektiv – med fokus på værdi.",
+    "background_title": "Baggrund",
+    "bio_p1": "Jesper har arbejdet på tværs af entreprenører og fagentrepriser med tilbudsgivning, mængdeudtræk og prissætning på både renoverings- og nybygningsprojekter.",
+    "bio_p2": "Han er vant til at strukturere udbudsmateriale, afklare forudsætninger og sikre gennemsigtighed i kalkulationen — så samarbejdspartnere og bygherre kan træffe beslutninger på et solidt grundlag.",
+    "bio_p3": "Arbejdet er præget af tempo, kvalitet og tæt dialog, med en jordnær tilgang til risici, forbehold og grænseflader.",
+    "skills_title": "Kompetencer",
+    "skill_1": "Kalkulation og mængdeudtræk",
+    "skill_2": "Udbudsmateriale og prissætning",
+    "skill_3": "Risikovurdering og forbehold",
+    "skill_4": "Tidsplaner og ressourcer",
+    "skill_5": "Dialog med bygherre og samarbejdspartnere"
+  },
+  "pricing": {
+    "title": "Priser",
+    "subtitle": "Vælg den løsning der passer til dit projekt.",
+    "popular": "Mest valgt",
+    "basic_title": "Start",
+    "basic_price": "DKK 4.900",
+    "basic_desc": "Til mindre tilbud og simple opgaver.",
+    "basic_f1": "1 tilbud",
+    "basic_f2": "Basis kalkulation",
+    "basic_f3": "Levering 3-5 hverdage",
+    "pro_title": "Pro",
+    "pro_price": "DKK 9.900",
+    "pro_desc": "Til mellemstore udbud med klar afgrænsning.",
+    "pro_f1": "Op til 3 tilbud",
+    "pro_f2": "Udvidet kalkulation",
+    "pro_f3": "Levering 2-4 hverdage",
+    "enterprise_title": "Enterprise",
+    "enterprise_price": "Kontakt",
+    "enterprise_desc": "Til komplekse udbud og rammeaftaler.",
+    "enterprise_f1": "Ubegrænset tilbud",
+    "enterprise_f2": "Fuldt scope og rådgivning",
+    "enterprise_f3": "Prioriteret support"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Fortæl kort om din opgave – jeg svarer hurtigt.",
+    "info_title": "Kontaktinfo",
+    "name_label": "Tilbudschef:",
+    "email_label": "Email:",
+    "phone_label": "Telefon:"
+  },
+  "form": {
+    "name": "Navn",
+    "email": "Email",
+    "message": "Besked",
+    "consent": "Jeg giver samtykke til, at mine oplysninger må behandles mhp. kontakt.",
+    "submit": "Send",
+    "success": "Tak! Din besked er sendt."
+  }
+}

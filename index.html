@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="meta.title_home">Placeholder — Tilbudschef</title>
+    <meta name="description" content="Tilbudschef Jesper – moderne, effektiv tilbudsgivning i byggebranchen" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <!-- Mobile topbar -->
+    <header class="topbar" aria-label="Topbar">
+      <button class="burger" id="burger" aria-label="Menu" aria-controls="mobile-drawer" aria-expanded="false">
+        <span class="burger-bar"></span>
+        <span class="sr-only" data-i18n="nav.open_menu">Åbn menu</span>
+      </button>
+      <a href="index.html" class="brand" data-i18n="company.name">Placeholder</a>
+      <div class="lang-switch">
+        <button class="lang" data-lang="da" aria-pressed="true" title="Dansk">🇩🇰</button>
+        <button class="lang" data-lang="en" aria-pressed="false" title="English">🇬🇧</button>
+      </div>
+    </header>
+
+    <!-- Desktop sidebar -->
+    <aside class="sidebar" aria-label="Sidnavigation">
+      <a href="index.html" class="brand" data-i18n="company.name">Placeholder</a>
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav.home">Forside</a>
+        <a href="about.html" data-i18n="nav.about">Om</a>
+        <a href="pricing.html" data-i18n="nav.pricing">Priser</a>
+        <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="lang-switch">
+          <button class="lang" data-lang="da" aria-pressed="true" title="Dansk">🇩🇰</button>
+          <button class="lang" data-lang="en" aria-pressed="false" title="English">🇬🇧</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Mobile drawer -->
+    <div class="overlay" id="overlay" hidden></div>
+    <div id="mobile-drawer" class="drawer" role="dialog" aria-modal="true" aria-label="Navigation" aria-hidden="true">
+      <div class="drawer-header">
+        <span class="brand" data-i18n="company.name">Placeholder</span>
+        <button class="drawer-close" id="drawer-close" aria-label="Luk menu">
+          <span aria-hidden="true">×</span>
+          <span class="sr-only" data-i18n="nav.close_menu">Luk menu</span>
+        </button>
+      </div>
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav.home">Forside</a>
+        <a href="about.html" data-i18n="nav.about">Om</a>
+        <a href="pricing.html" data-i18n="nav.pricing">Priser</a>
+        <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+    </div>
+
+    <main class="content">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img class="bg-image" src="https://images.unsplash.com/photo-1504307665000-83c8b1780a5a?q=80&w=2000&auto=format&fit=crop" alt="" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" />
+          <div class="blob b1"></div>
+          <div class="blob b2"></div>
+        </div>
+        <div class="hero-inner">
+          <h1 class="reveal" data-i18n="home.hero_title">Tilbud der vinder byggeopgaver</h1>
+          <p class="muted reveal" data-i18n="home.hero_subtitle">Jesper hjælper entreprenører med skarpe tilbud – hurtigt og præcist.</p>
+          <div class="cta reveal">
+            <a class="btn primary" href="pricing.html" data-i18n="cta.view_pricing">Se priser</a>
+            <a class="btn ghost" href="contact.html" data-i18n="cta.contact">Kontakt</a>
+          </div>
+          <div class="stats reveal">
+            <div class="stat glass">
+              <div class="stat-num">10+</div>
+              <div class="stat-label" data-i18n="home.stats_years">År i branchen</div>
+            </div>
+            <div class="stat glass">
+              <div class="stat-num">500+</div>
+              <div class="stat-label" data-i18n="home.stats_bids">Tilbud leveret</div>
+            </div>
+            <div class="stat glass">
+              <div class="stat-num">4,9</div>
+              <div class="stat-label" data-i18n="home.stats_rating">Kundetilfredshed</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-inner">
+          <div class="grid two">
+            <div class="card glass gradient-border dark-grad">
+              <h3 data-i18n="home.card_speed_title">Hastighed</h3>
+              <p class="muted" data-i18n="home.card_speed_text">Strømlinet proces og skabeloner, så du kommer først.</p>
+            </div>
+            <div class="card glass gradient-border dark-grad">
+              <h3 data-i18n="home.card_quality_title">Kvalitet</h3>
+              <p class="muted" data-i18n="home.card_quality_text">Skærpede kalkulationer og klare forudsætninger.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-inner">
+          <div class="card glass profile">
+            <img class="avatar img-hide-on-error" src="https://media.licdn.com/dms/image/v2/D4D03AQG29MStgnqv_w/profile-displayphoto-shrink_800_800/B4DZSxilcSGkAg-/0/1738145421875?e=1759968000&v=beta&t=l7YVwiyjknx6732KxqxfGY_rT6fOl3M1hMT7RbVhyxQ" alt="Jesper Johnsen" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+            <div>
+              <h3 data-i18n="home.jesper_title">Mød Jesper</h3>
+              <div class="prose">
+                <p class="muted" data-i18n="home.jesper_body">Jesper er tilbudschef med mere end 10 års erfaring i byggebranchen. Han hjælper entreprenører og håndværksvirksomheder med præcise kalkulationer, tydelige forudsætninger og tilbud der vinder — uden at gå på kompromis med kvalitet eller tempo.</p>
+                <p class="muted" data-i18n="home.jesper_body2">Han arbejder tæt med projektledere, kalkulatører og fagentrepriser for at skabe realistiske budgetter, klare grænseflader og konkurrencedygtige tilbud.</p>
+                <p class="muted" data-i18n="home.jesper_body3">Fokus er altid på gennemsigtighed, tempo og kvalitet — så beslutninger kan træffes hurtigt og sikkert.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+  </html>
