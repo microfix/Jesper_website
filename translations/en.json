@@ -59,6 +59,9 @@
     "bio_p1": "Jesper has worked across general contractors and trades on bidding, quantity takeoffs and pricing for both renovation and new build projects.",
     "bio_p2": "He’s used to structuring tender material, clarifying assumptions and bringing transparency to estimates — giving partners and clients a solid basis for decisions.",
     "bio_p3": "The work is characterized by pace, quality and close dialogue, with a pragmatic view on risks, reservations and scopes.",
+    "education_title": "Education",
+    "education_1": "Qualified carpenter — 17 years on site",
+    "education_2": "Constructing architect (B. Construct.), KEA",
     "skills_title": "Skills",
     "skill_1": "Estimating and quantity takeoff",
     "skill_2": "Tender documentation and pricing",
@@ -119,7 +122,12 @@
     "calc_b3": "Collecting and compiling subcontractor quotes",
     "calc_b4": "Preparing the final bid document",
     "calc_b5": "Sparring on tender terms, risks and optimisation",
-    "calc_benefit": "Save time, get precise numbers and improve your odds of winning the next job."
+    "calc_benefit": "Save time, get precise numbers and improve your odds of winning the next job.",
+    "pm_title": "Project management",
+    "pm_b1": "Planning, coordination and continuous progress follow‑up on site",
+    "pm_b2": "Schedule, staffing and cost control",
+    "pm_b3": "Quality, safety and delivery tracking",
+    "pm_benefit": "Stay on top of progress, quality and costs — with one responsible who knows the bid and assumptions."
   },
   "form": {
     "name": "Name",

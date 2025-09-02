@@ -59,6 +59,9 @@
     "bio_p1": "Jesper har arbejdet på tværs af entreprenører og fagentrepriser med tilbudsgivning, mængdeudtræk og prissætning på både renoverings- og nybygningsprojekter.",
     "bio_p2": "Han er vant til at strukturere udbudsmateriale, afklare forudsætninger og sikre gennemsigtighed i kalkulationen — så samarbejdspartnere og bygherre kan træffe beslutninger på et solidt grundlag.",
     "bio_p3": "Arbejdet er præget af tempo, kvalitet og tæt dialog, med en jordnær tilgang til risici, forbehold og grænseflader.",
+    "education_title": "Uddannelse",
+    "education_1": "Uddannet tømrer i marken — 17 år",
+    "education_2": "Bygningskonstruktør, KEA",
     "skills_title": "Kompetencer",
     "skill_1": "Kalkulation og mængdeudtræk",
     "skill_2": "Udbudsmateriale og prissætning",
@@ -119,7 +122,12 @@
     "calc_b3": "Indhentning og sammenstilling af underentreprenørtilbud",
     "calc_b4": "Udarbejdelse af det færdige tilbudsdokument",
     "calc_b5": "Sparring om udbudsbetingelser, risici og optimering",
-    "calc_benefit": "I sparer tid, får præcise beregninger og øger jeres chance for at vinde næste sag."
+    "calc_benefit": "I sparer tid, får præcise beregninger og øger jeres chance for at vinde næste sag.",
+    "pm_title": "Projektstyring",
+    "pm_b1": "Planlægning, koordinering og løbende opfølgning på udførelse",
+    "pm_b2": "Tidsplan, bemanding og økonomiopfølgning",
+    "pm_b3": "Kvalitet, sikkerhed og leverancesporing",
+    "pm_benefit": "I får styr på fremdrift, kvalitet og økonomi – med én ansvarlig, der kender tilbud og forudsætninger."
   },
   "form": {
     "name": "Navn",
