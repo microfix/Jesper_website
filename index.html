@@ -3,135 +3,316 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title data-i18n="meta.title_home">Optiva — Forside</title>
-    <meta name="description" content="Tilbudschef Jesper – moderne, effektiv tilbudsgivning i byggebranchen" />
-    <link rel="stylesheet" href="styles.css?v=3" />
+    <title data-i18n="meta.title_home">OPTIVA — Tilbudsberegning der vinder projekter</title>
+    <meta name="description" content="OPTIVA hjælper entreprenører med mængdeudtræk, kalkulation og projektstøtte. Book et møde og få fleksibel kapacitet i tilbudsfasen." data-i18n-meta="meta.description" />
+    <link rel="icon" href="assets/logo_browser.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body data-page="home">
-    <!-- Mobile topbar -->
-    <header class="topbar" aria-label="Topbar">
-      <button class="burger" id="burger" aria-label="Menu" aria-controls="mobile-drawer" aria-expanded="false">
-        <span class="burger-bar"></span>
-        <span class="sr-only" data-i18n="nav.open_menu">Åbn menu</span>
-      </button>
-      <a href="index.html" class="brand" aria-label="OPTIVA"><img class="logo img-hide-on-error" src="assets/logo_no_bg.png" alt="OPTIVA"></a>
-      <div class="lang-switch">
-        <button class="lang" data-lang="da" aria-pressed="true" title="Dansk">🇩🇰</button>
-        <button class="lang" data-lang="en" aria-pressed="false" title="English">🇬🇧</button>
+    <header class="site-header" aria-label="Primær navigation">
+      <div class="container">
+        <a class="brand" href="#top" aria-label="OPTIVA">
+          <img src="assets/logo_no_bg_black.png" alt="OPTIVA" class="brand-logo img-hide-on-error" />
+        </a>
+        <nav class="main-nav" aria-label="Hovednavigation">
+          <a href="#services" data-i18n="nav.services">Ydelser</a>
+          <a href="#process" data-i18n="nav.process">Proces</a>
+          <a href="#about" data-i18n="nav.about">Om Jesper</a>
+          <a href="#pricing" data-i18n="nav.pricing">Pakker</a>
+          <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+        </nav>
+        <div class="header-actions">
+          <div class="lang-switch" aria-label="Skift sprog">
+            <button class="lang" data-lang="da" aria-pressed="true" title="Dansk">DA</button>
+            <button class="lang" data-lang="en" aria-pressed="false" title="English">EN</button>
+          </div>
+          <button class="burger" id="burger" aria-label="Menu" aria-controls="mobile-nav" aria-expanded="false">
+            <span></span><span></span><span></span>
+            <span class="sr-only" data-i18n="nav.open_menu">Åbn menu</span>
+          </button>
+        </div>
       </div>
     </header>
 
-    <!-- Desktop sidebar -->
-    <aside class="sidebar" aria-label="Sidnavigation">
-      <a href="index.html" class="brand" aria-label="OPTIVA"><img class="logo img-hide-on-error" src="assets/logo_no_bg.png" alt="OPTIVA"></a>
-      <nav class="nav">
-        <a href="index.html" data-i18n="nav.home">Forside</a>
-        <a href="services.html" data-i18n="nav.services">Ydelser</a>
-        <a href="about.html" data-i18n="nav.about">Om</a>
-        <a href="pricing.html" data-i18n="nav.pricing">Priser</a>
-        <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
-      </nav>
-      <div class="sidebar-footer">
-        <div class="lang-switch">
-          <button class="lang" data-lang="da" aria-pressed="true" title="Dansk">🇩🇰</button>
-          <button class="lang" data-lang="en" aria-pressed="false" title="English">🇬🇧</button>
-        </div>
-      </div>
-    </aside>
-
-    <!-- Mobile drawer -->
-    <div class="overlay" id="overlay" hidden></div>
-    <div id="mobile-drawer" class="drawer" role="dialog" aria-modal="true" aria-label="Navigation" aria-hidden="true">
-      <div class="drawer-header">
-        <span class="brand" aria-label="OPTIVA"><img class="logo img-hide-on-error" src="assets/logo_no_bg.png" alt="OPTIVA"></span>
+    <div class="mobile-overlay" id="overlay" hidden></div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobilt menu" aria-hidden="true">
+      <div class="mobile-nav-header">
+        <a class="brand" href="#top" aria-label="OPTIVA">
+          <img src="assets/logo_no_bg_black.png" alt="OPTIVA" class="brand-logo img-hide-on-error" />
+        </a>
         <button class="drawer-close" id="drawer-close" aria-label="Luk menu">
           <span aria-hidden="true">×</span>
           <span class="sr-only" data-i18n="nav.close_menu">Luk menu</span>
         </button>
       </div>
-      <nav class="nav">
-        <a href="index.html" data-i18n="nav.home">Forside</a>
-        <a href="services.html" data-i18n="nav.services">Ydelser</a>
-        <a href="about.html" data-i18n="nav.about">Om</a>
-        <a href="pricing.html" data-i18n="nav.pricing">Priser</a>
-        <a href="contact.html" data-i18n="nav.contact">Kontakt</a>
-      </nav>
-    </div>
+      <div class="mobile-nav-links">
+        <a href="#services" data-i18n="nav.services">Ydelser</a>
+        <a href="#process" data-i18n="nav.process">Proces</a>
+        <a href="#about" data-i18n="nav.about">Om Jesper</a>
+        <a href="#pricing" data-i18n="nav.pricing">Pakker</a>
+        <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+      </div>
+      <div class="mobile-lang">
+        <button class="lang" data-lang="da" aria-pressed="true" title="Dansk">DA</button>
+        <button class="lang" data-lang="en" aria-pressed="false" title="English">EN</button>
+      </div>
+    </nav>
 
-    <main class="content">
-      <section class="hero">
-        <div class="hero-media" aria-hidden="true">
-          <img class="bg-image" src="https://images.unsplash.com/photo-1504307665000-83c8b1780a5a?q=80&w=2000&auto=format&fit=crop" alt="" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" />
-          <div class="blob b1"></div>
-          <div class="blob b2"></div>
-        </div>
-        <div class="hero-inner">
-          <h1 class="reveal hero-title"><span data-i18n="home.hero_title_1">Vores ydelser</span><br><span data-i18n="home.hero_title_2">Fra tilbud til aflevering</span></h1>
-          <p class="muted reveal" data-i18n="home.hero_intro1">Hos Optiva hjælper vi entreprenørfirmaer hele vejen igennem processen: fra de første mængdeudtræk og kalkulationer til styring af byggepladsen under udførelsen.</p>
-          <p class="muted reveal" data-i18n="home.hero_intro2">På den måde får I én partner, der kender projektet fra start til slut – og som sikrer overblik, økonomi og kvalitet.</p>
-          <div class="cta reveal">
-            <a class="btn primary" href="contact.html" data-i18n="cta.book_call">Book en uforpligtende snak</a>
-            <a class="btn ghost" href="services.html" data-i18n="cta.view_services">Se ydelser</a>
-          </div>
-          <div class="stats reveal">
-            <div class="stat glass">
-              <div class="stat-num">10+</div>
-              <div class="stat-label" data-i18n="home.stats_years">År i branchen</div>
+    <main id="top">
+      <section class="hero" id="intro">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="hero-badge" data-i18n="hero.badge">Tilbudsberegning og projektstøtte</span>
+            <h1 class="hero-title" data-i18n="hero.title">Vind næste udbud uden faste ekstra omkostninger</h1>
+            <p class="hero-lead" data-i18n="hero.subtitle">Jesper Johnsen hjælper entreprenører med præcise mængdeudtræk, realistiske kalkulationer og leverancer klar til aflevering.</p>
+            <p class="hero-support" data-i18n="hero.support">Få fleksibel kapacitet i tilbudsfasen, når deadlines presser.</p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#contact" data-i18n="hero.cta_primary">Book afklaringsmøde</a>
+              <a class="btn btn-ghost" href="#services" data-i18n="hero.cta_secondary">Se ydelserne</a>
             </div>
-            <div class="stat glass">
-              <div class="stat-num">500+</div>
-              <div class="stat-label" data-i18n="home.stats_bids">Tilbud leveret</div>
-            </div>
-            <div class="stat glass">
-              <div class="stat-num">4,9</div>
-              <div class="stat-label" data-i18n="home.stats_rating">Kundetilfredshed</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section reveal">
-        <div class="section-inner">
-          <div class="grid two">
-            <div class="card glass gradient-border dark-grad">
-              <h3 data-i18n="home.card_speed_title">Hastighed</h3>
-              <p class="muted" data-i18n="home.card_speed_text">Strømlinet proces og skabeloner, så du kommer først.</p>
-            </div>
-            <div class="card glass gradient-border dark-grad">
-              <h3 data-i18n="home.card_quality_title">Kvalitet</h3>
-              <p class="muted" data-i18n="home.card_quality_text">Skærpede kalkulationer og klare forudsætninger.</p>
+            <div class="hero-stats">
+              <div class="stat">
+                <div class="stat-number">10+</div>
+                <div class="stat-label" data-i18n="hero.stat_years_label">År i branchen</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number">500+</div>
+                <div class="stat-label" data-i18n="hero.stat_bids_label">Tilbud leveret</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number">4,9</div>
+                <div class="stat-label" data-i18n="hero.stat_rating_label">Kundetilfredshed</div>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section class="section reveal">
-        <div class="section-inner">
-          <div class="card glass profile">
-            <div>
-              <h3 data-i18n="home.jesper_title">Mød Jesper</h3>
-              <div class="prose">
-                <p class="muted" data-i18n="home.jesper_body">Jesper er tilbudschef med mere end 10 års erfaring i byggebranchen. Han hjælper entreprenører og håndværksvirksomheder med præcise kalkulationer, tydelige forudsætninger og tilbud der vinder — uden at gå på kompromis med kvalitet eller tempo.</p>
-                <p class="muted" data-i18n="home.jesper_body2">Han arbejder tæt med projektledere, kalkulatører og fagentrepriser for at skabe realistiske budgetter, klare grænseflader og konkurrencedygtige tilbud.</p>
-                <p class="muted" data-i18n="home.jesper_body3">Fokus er altid på gennemsigtighed, tempo og kvalitet — så beslutninger kan træffes hurtigt og sikkert.</p>
+          <div class="hero-media">
+            <div class="hero-card">
+              <img src="assets/jesper_bw.png" alt="Jesper Johnsen" />
+              <div class="hero-card-content">
+                <p data-i18n="about.quote">Jeg hjælper entreprenører med at vinde flere tilbud uden at gå på kompromis med tempo eller kvalitet.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section reveal">
-        <div class="section-inner">
-          <div class="card glass prose">
-            <h3 data-i18n="home.why_title">Hvorfor vælge os</h3>
-            <p class="muted" data-i18n="home.why_p1">Med Optiva får I en fleksibel partner, der træder til, når presset er størst. Ingen faste lønomkostninger – kun præcision, fortrolighed og et mål om at styrke jeres hitrate.</p>
-            <p class="muted" data-i18n="home.why_p2">Jeg vil meget gerne i dialog med entreprenørfirmaer, der kunne have brug for ekstra kræfter i tilbudsfasen – eller som blot er nysgerrige på, hvordan jeg kan hjælpe.</p>
-            <p class="muted" data-i18n="home.why_p3">Tak til alle, jeg tidligere har arbejdet sammen med – jeg glæder mig til at bygge videre på relationerne i denne nye rejse! 🚀</p>
+      <section class="section section-pillars" id="pillars">
+        <div class="container">
+          <h2 data-i18n="pillars.title">Derfor vælger entreprenører OPTIVA</h2>
+          <div class="grid three">
+            <article class="card">
+              <h3 data-i18n="pillars.speed_title">Tempo uden kompromisser</h3>
+              <p data-i18n="pillars.speed_text">Vi arbejder i gennemprøvede skabeloner og digitale værktøjer, så tilbuddene bliver færdige før konkurrenterne.</p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="pillars.quality_title">Kalkulation med ro i maven</h3>
+              <p data-i18n="pillars.quality_text">Alle forudsætninger dokumenteres, så økonomi, mængder og scope holder hele vejen.</p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="pillars.clarity_title">Transparent samarbejde</h3>
+              <p data-i18n="pillars.clarity_text">Vi indgår som en del af jeres team og sikrer, at beslutninger kan tages hurtigt og på et solidt grundlag.</p>
+            </article>
           </div>
+        </div>
+      </section>
+
+      <section class="section section-services" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-i18n="services.title">Ydelser</h2>
+            <p data-i18n="services.subtitle">Fra første mængdeudtræk til aflevering</p>
+          </div>
+          <div class="grid three">
+            <article class="card">
+              <h3 data-i18n="services.estimating_title">Tilbudsberegning</h3>
+              <ul>
+                <li data-i18n="services.estimating_p1">Mængdeudtræk i 2D og 3D</li>
+                <li data-i18n="services.estimating_p2">Detaljeret kalkulation og prisfastsættelse</li>
+                <li data-i18n="services.estimating_p3">Leverance klar til aflevering</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3 data-i18n="services.project_title">Projektstyring</h3>
+              <ul>
+                <li data-i18n="services.project_p1">Planlægning, tidsplan og ressourcer</li>
+                <li data-i18n="services.project_p2">Økonomiopfølgning og kvalitetssikring</li>
+                <li data-i18n="services.project_p3">Koordinering med underentreprenører</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3 data-i18n="services.advisory_title">Strategisk sparring</h3>
+              <ul>
+                <li data-i18n="services.advisory_p1">Risikovurdering og forbehold</li>
+                <li data-i18n="services.advisory_p2">Optimering af scope og løsninger</li>
+                <li data-i18n="services.advisory_p3">Sparring i dialogen med bygherre</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-process" id="process">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-i18n="process.title">Sådan samarbejder vi</h2>
+            <p data-i18n="process.subtitle">Vi tager ansvar hele vejen fra første materiale til aflevering.</p>
+          </div>
+          <div class="timeline">
+            <div class="timeline-step">
+              <span class="step-number">1</span>
+              <div class="step-content">
+                <h3 data-i18n="process.step1_title">1. Afklaringsmøde</h3>
+                <p data-i18n="process.step1_text">Vi gennemgår projektet, deadlines og materiale, så scope og forventninger er tydelige.</p>
+              </div>
+            </div>
+            <div class="timeline-step">
+              <span class="step-number">2</span>
+              <div class="step-content">
+                <h3 data-i18n="process.step2_title">2. Mængder og kalkulation</h3>
+                <p data-i18n="process.step2_text">Vi udarbejder mængdelister, kalkulation og dokumentation i tæt dialog med jeres team.</p>
+              </div>
+            </div>
+            <div class="timeline-step">
+              <span class="step-number">3</span>
+              <div class="step-content">
+                <h3 data-i18n="process.step3_title">3. Levering og opfølgning</h3>
+                <p data-i18n="process.step3_text">I modtager det samlede oplæg klar til aflevering – med mulighed for sparring frem til beslutning.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-about" id="about">
+        <div class="container about-grid">
+          <div class="about-visual">
+            <img src="assets/jesper.jpg" alt="Jesper Johnsen" class="about-photo" />
+          </div>
+          <div class="about-copy">
+            <h2 data-i18n="about.title">Mød Jesper</h2>
+            <blockquote data-i18n="about.quote">Jeg hjælper entreprenører med at vinde flere tilbud uden at gå på kompromis med tempo eller kvalitet.</blockquote>
+            <p data-i18n="about.body1">Jesper Johnsen har mere end 10 års erfaring som tilbudschef i byggebranchen og har leveret hundredvis af tilbud til hoved- og fagentrepriser.</p>
+            <p data-i18n="about.body2">Hans arbejde bygger på struktur, transparens og et tæt samarbejde med projektledere, kalkulatører og underentreprenører.</p>
+            <p data-i18n="about.body3">Med OPTIVA får du en fleksibel partner, der hurtigt kan træde til, når jeres afdeling mangler hænder i tilbudsfasen.</p>
+            <p class="about-signature" data-i18n="about.signature">Jesper Johnsen — stifter af OPTIVA</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-pricing" id="pricing">
+        <div class="container">
+          <div class="section-header">
+            <h2 data-i18n="pricing.title">Pakker og priseksempler</h2>
+            <p data-i18n="pricing.subtitle">Alle projekter vurderes ud fra scope og kompleksitet. Her er tre typiske indgange.</p>
+          </div>
+          <div class="grid three">
+            <article class="card pricing-card">
+              <div class="pricing-header">
+                <h3 data-i18n="pricing.starter_name">Start</h3>
+                <p class="price" data-i18n="pricing.starter_price">Fra 4.900 kr.</p>
+              </div>
+              <ul>
+                <li data-i18n="pricing.starter_p1">1 tilbud</li>
+                <li data-i18n="pricing.starter_p2">Basis kalkulation</li>
+                <li data-i18n="pricing.starter_p3">Levering 3-5 hverdage</li>
+              </ul>
+            </article>
+            <article class="card pricing-card highlight">
+              <div class="pricing-header">
+                <h3 data-i18n="pricing.growth_name">Accelereret</h3>
+                <p class="price" data-i18n="pricing.growth_price">Fra 9.900 kr.</p>
+              </div>
+              <ul>
+                <li data-i18n="pricing.growth_p1">Op til 3 samtidige tilbud</li>
+                <li data-i18n="pricing.growth_p2">Udvidet kalkulation og dokumentation</li>
+                <li data-i18n="pricing.growth_p3">Prioriteret sparring</li>
+              </ul>
+            </article>
+            <article class="card pricing-card">
+              <div class="pricing-header">
+                <h3 data-i18n="pricing.enterprise_name">Samarbejdsaftale</h3>
+                <p class="price" data-i18n="pricing.enterprise_price">Fast pris efter aftale</p>
+              </div>
+              <ul>
+                <li data-i18n="pricing.enterprise_p1">Ubegrænset antal tilbud</li>
+                <li data-i18n="pricing.enterprise_p2">Dybdegående rådgivning</li>
+                <li data-i18n="pricing.enterprise_p3">Løbende projektstøtte</li>
+              </ul>
+            </article>
+          </div>
+          <p class="pricing-notice" data-i18n="pricing.notice">Priserne er ekskl. moms og tilpasses efter behov.</p>
+        </div>
+      </section>
+
+      <section class="section section-cta">
+        <div class="container cta-content">
+          <div>
+            <h2 data-i18n="cta.title">Klar til at styrke jeres næste tilbud?</h2>
+            <p data-i18n="cta.text">Lad os tage en kort dialog om jeres udfordringer og finde den rigtige løsning.</p>
+          </div>
+          <div class="cta-buttons">
+            <a class="btn btn-primary" href="#contact" data-i18n="cta.primary">Book møde</a>
+            <a class="btn btn-ghost" href="#contact" data-i18n="cta.secondary">Skriv til os</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-contact" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <h2 data-i18n="contact.title">Kontakt</h2>
+            <p data-i18n="contact.subtitle">Fortæl kort om projektet – jeg vender tilbage hurtigt.</p>
+            <ul class="contact-list">
+              <li><span data-i18n="contact.name_label">Tilbudschef</span><strong data-i18n="contact.name_value">Jesper Johnsen</strong></li>
+              <li><span data-i18n="contact.email_label">Email</span><a href="mailto:jesper@example.com" data-i18n="contact.email_value">jesper@example.com</a></li>
+              <li><span data-i18n="contact.phone_label">Telefon</span><a href="tel:+4512345678" data-i18n="contact.phone_value">+45 12 34 56 78</a></li>
+              <li><span data-i18n="contact.address_label">Adresse</span><strong data-i18n="contact.address_value">København, Danmark</strong></li>
+            </ul>
+          </div>
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="field">
+              <label for="form-name" data-i18n="contact.form_name">Navn</label>
+              <input id="form-name" name="name" type="text" required data-i18n-placeholder="contact.form_name" />
+            </div>
+            <div class="field">
+              <label for="form-email" data-i18n="contact.form_email">Email</label>
+              <input id="form-email" name="email" type="email" required data-i18n-placeholder="contact.form_email" />
+            </div>
+            <div class="field">
+              <label for="form-phone" data-i18n="contact.form_phone">Telefon</label>
+              <input id="form-phone" name="phone" type="tel" data-i18n-placeholder="contact.form_phone" />
+            </div>
+            <div class="field">
+              <label for="form-message" data-i18n="contact.form_message">Beskriv projektet eller opgaven</label>
+              <textarea id="form-message" name="message" rows="4" required data-i18n-placeholder="contact.form_message"></textarea>
+            </div>
+            <div class="field checkbox">
+              <input id="form-consent" name="consent" type="checkbox" required />
+              <label for="form-consent" data-i18n="contact.form_consent">Jeg giver samtykke til, at mine oplysninger må behandles med henblik på kontakt.</label>
+            </div>
+            <button class="btn btn-primary" type="submit" data-i18n="contact.form_submit">Send besked</button>
+            <p id="form-success" class="form-success" role="status" aria-live="polite" hidden data-i18n="contact.form_success">Tak for din besked – jeg vender tilbage hurtigst muligt.</p>
+          </form>
         </div>
       </section>
     </main>
 
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo_no_bg_white.png" alt="OPTIVA" class="footer-logo img-hide-on-error" />
+          <p data-i18n="footer.copy">© 2025 OPTIVA. Alle rettigheder forbeholdes.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer links">
+          <a href="#" data-i18n="footer.privacy">Privatlivspolitik</a>
+          <a href="#" data-i18n="footer.cookies">Cookies</a>
+        </nav>
+      </div>
+    </footer>
+
     <script src="app.js" defer></script>
   </body>
-  </html>
+</html>
